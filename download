@@ -1,0 +1,9 @@
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import Catalyst from "./Catalyst.jsx";
+
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <Catalyst />
+  </StrictMode>
+);
